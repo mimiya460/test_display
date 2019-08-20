@@ -15,4 +15,4 @@ class TestDisplay():
         # 声明Driver对象
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
    
-        driver.find_element_by_xpath("//*[contains(@text,'打开')]").click()
+        self.driver.find_element_by_xpath("//*[contains(@text,'设置')]").click()

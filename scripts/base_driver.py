@@ -14,5 +14,5 @@ class TestDisplay():
         desired_caps['resetKeyboard'] = True
         # 声明Driver对象
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
-    def test_display(self):
-        self.driver.find_element_by_xpath("//*[contains(@text,'打开')]").click()
+   
+        driver.find_element_by_xpath("//*[contains(@text,'打开')]").click()
